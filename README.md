@@ -1,3 +1,3 @@
-# sffd_map 장애인 체육시설 지도
+# 장애인 체육시설 지도
 The Map of Sports facilities for the disabled.
 장애인 체육시설 지도입니다.
