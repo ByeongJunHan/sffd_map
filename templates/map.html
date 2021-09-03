@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_677b332caaf4472582a21c23bc2cf887 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_677b332caaf4472582a21c23bc2cf887" ></div>
+        
+</body>
+<script>    
+    
+            var map_677b332caaf4472582a21c23bc2cf887 = L.map(
+                "map_677b332caaf4472582a21c23bc2cf887",
+                {
+                    center: [37.566345, 126.977893],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7681268a43d40ec89aa1215024f126f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_677b332caaf4472582a21c23bc2cf887);
+        
+    
+            var marker_b5f95128df494976bf8f79d6c1d4c976 = L.marker(
+                [37.70312098, 126.7648528],
+                {}
+            ).addTo(map_677b332caaf4472582a21c23bc2cf887);
+        
+    
+            var icon_160ae14dc009419ba499abe266cebd09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5f95128df494976bf8f79d6c1d4c976.setIcon(icon_160ae14dc009419ba499abe266cebd09);
+        
+    
+        var popup_db43622139044562895825e498fb3782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1a98e78cb8843fd8e7c2ec1cb22ca2e = $(`<div id="html_c1a98e78cb8843fd8e7c2ec1cb22ca2e" style="width: 100.0%; height: 100.0%;">고양시재활스포츠센터</div>`)[0];
+            popup_db43622139044562895825e498fb3782.setContent(html_c1a98e78cb8843fd8e7c2ec1cb22ca2e);
+        
+
+        marker_b5f95128df494976bf8f79d6c1d4c976.bindPopup(popup_db43622139044562895825e498fb3782)
+        ;
+
+        
+    
+    
+            var marker_bf9909e63a514fa4b47aae322c330c7f = L.marker(
+                [37.6956769, 126.7728476],
+                {}
+            ).addTo(map_677b332caaf4472582a21c23bc2cf887);
+        
+    
+            var icon_78e61a3dcd114f30b4757afb8d7e147e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf9909e63a514fa4b47aae322c330c7f.setIcon(icon_78e61a3dcd114f30b4757afb8d7e147e);
+        
+    
+        var popup_3ab2a7c17bb740aa88506b42627cd09a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ca4cf0f0f124b71bcf84207d9f0c483 = $(`<div id="html_5ca4cf0f0f124b71bcf84207d9f0c483" style="width: 100.0%; height: 100.0%;">홀트장애인종합체육관</div>`)[0];
+            popup_3ab2a7c17bb740aa88506b42627cd09a.setContent(html_5ca4cf0f0f124b71bcf84207d9f0c483);
+        
+
+        marker_bf9909e63a514fa4b47aae322c330c7f.bindPopup(popup_3ab2a7c17bb740aa88506b42627cd09a)
+        ;
+
+        
+    
+    
+            var marker_922fe3c7653e4b40b79fb5f6a82c2453 = L.marker(
+                [37.47873416, 126.8468196],
+                {}
+            ).addTo(map_677b332caaf4472582a21c23bc2cf887);
+        
+    
+            var icon_1a7f569b25df4f0987855ab181615c6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_922fe3c7653e4b40b79fb5f6a82c2453.setIcon(icon_1a7f569b25df4f0987855ab181615c6f);
+        
+    
+        var popup_bbbfc85d5ac146638c0147bfe25cafb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8265d67ebf0041dabb67a99b2f2a6701 = $(`<div id="html_8265d67ebf0041dabb67a99b2f2a6701" style="width: 100.0%; height: 100.0%;">광명장애인종합복지관 체육관</div>`)[0];
+            popup_bbbfc85d5ac146638c0147bfe25cafb5.setContent(html_8265d67ebf0041dabb67a99b2f2a6701);
+        
+
+        marker_922fe3c7653e4b40b79fb5f6a82c2453.bindPopup(popup_bbbfc85d5ac146638c0147bfe25cafb5)
+        ;
+
+        
+    
+    
+            var marker_182ad9c2552541d796e28b145086d2f8 = L.marker(
+                [37.28384577, 126.8402654],
+                {}
+            ).addTo(map_677b332caaf4472582a21c23bc2cf887);
+        
+    
+            var icon_39d57bc088664f2bbafd4eea8cce834a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_182ad9c2552541d796e28b145086d2f8.setIcon(icon_39d57bc088664f2bbafd4eea8cce834a);
+        
+    
+        var popup_00a19571e16e4d30be07f995936eb3a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e893c8053534dcaa5971bcd0cc4dd73 = $(`<div id="html_7e893c8053534dcaa5971bcd0cc4dd73" style="width: 100.0%; height: 100.0%;">명휘체육센터</div>`)[0];
+            popup_00a19571e16e4d30be07f995936eb3a2.setContent(html_7e893c8053534dcaa5971bcd0cc4dd73);
+        
+
+        marker_182ad9c2552541d796e28b145086d2f8.bindPopup(popup_00a19571e16e4d30be07f995936eb3a2)
+        ;
+
+        
+    
+</script>
