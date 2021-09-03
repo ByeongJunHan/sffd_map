@@ -1,5 +1,5 @@
 # 장애인 체육시설 지도
-The Map of Sports facilities for the disabled.
+The Map of Sports facilities for the disabled = SFFD MAP
 
 장애인 체육시설 지도입니다.
 
